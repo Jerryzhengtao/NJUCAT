@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments :: header(~{::title})">
+    <title>广场</title>
+</head>
+<body>
+<!--顶部导航-->
+<nav th:replace="_fragments::menu">
+</nav>
+
+<!--内容-->
+<div class="ui grid m-padded-tb-large">
+    <div class="ui container">
+        <div class="ui top attached  segment">
+            <div class="ui horizontal mini link list">
+                <div class="item">
+                    <a href="#">
+                        <p class="m-text-font-header" >
+                            <img src="../static/images/moon.png"  th:src="@{/images/moon.png}" alt="" class="ui avatar image">
+                            李sss
+                        </p>
+                    </a>
+                </div>
+                <div class="item">
+                    更于：2021-2-28
+                </div>
+                <div class="item">
+                    <i class="eye icon"></i>200
+                </div>
+                <div class="item">
+                    <i class="comment icon"></i> 100
+                </div>
+                <div class="item">
+                    <a href="#"><i class="thumbs up icon"></i>200</a>
+                </div>
+            </div>
+        </div>
+        <div class="ui attached purple segment">
+            <p class="m-text">目前关于空袭造成的人员伤亡情况，各方给出了不同说法。美国国防部方面称，已掌握了人员伤
+                亡的初步信息，但是尚未透露细节。而有伊拉克军事官员称，美军的空袭造成1人死亡、4人受伤。来
+                自叙利亚东部当地医疗机构的消息人士则称，空袭造成至少17人死亡。另外，还有美国和英
+                国媒体报道称，空袭造成22人死亡。不过这些说法目前都无法得到确认。</p>
+        </div>
+        <div class="ui attached segment">
+            <img src="../static/images/moon.png" th:src="@{/images/moon.png}">
+            <img src="../static/images/moon.png" th:src="@{/images/moon.png}">
+            <img src="../static/images/moon.png" th:src="@{/images/moon.png}">
+            <img src="../static/images/moon.png" th:src="@{/images/moon.png}">
+        </div>
+
+        <div class="ui bottom attached purple segment">
+
+            <div class="ui comments">
+                <h3 class="ui dividing header">评论</h3>
+                <div class="comment">
+                    <a class="avatar">
+                        <img src="/images/avatar/small/joe.jpg">
+                    </a>
+                    <div class="content">
+                        <a class="author">乔·亨德森</a>
+                        <div class="metadata">
+                            <span class="date">5天前</span>
+                        </div>
+                        <div class="text">
+                            杜德，太棒了。非常感谢
+                        </div>
+                        <div class="actions">
+                            <a class="reply">回复</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <a class="avatar">
+                        <img src="/images/avatar/small/joe.jpg">
+                    </a>
+                    <div class="content">
+                        <a class="author">乔·亨德森</a>
+                        <div class="metadata">
+                            <span class="date">5天前</span>
+                        </div>
+                        <div class="text">
+                            杜德，太棒了。非常感谢
+                        </div>
+                        <div class="actions">
+                            <a class="reply">回复</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <a class="avatar">
+                        <img src="/images/avatar/small/joe.jpg">
+                    </a>
+                    <div class="content">
+                        <a class="author">乔·亨德森</a>
+                        <div class="metadata">
+                            <span class="date">5天前</span>
+                        </div>
+                        <div class="text">
+                            杜德，太棒了。非常感谢
+                        </div>
+                        <div class="actions">
+                            <a class="reply">回复</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <a class="avatar">
+                        <img src="/images/avatar/small/joe.jpg">
+                    </a>
+                    <div class="content">
+                        <a class="author">乔·亨德森</a>
+                        <div class="metadata">
+                            <span class="date">5天前</span>
+                        </div>
+                        <div class="text">
+                            杜德，太棒了。非常感谢
+                        </div>
+                        <div class="actions">
+                            <a class="reply">回复</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="ui reply form">
+                    <div class="field">
+                        <textarea placeholder="评论..."></textarea>
+                    </div>
+                    <div class="ui transparent labeled submit icon button purple">
+                        <i class="icon edit  "></i>发表
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!--底部-->
+<footer th:replace="_fragments :: footer">
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.m-padded-tb-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.m-padded-tb-large{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+.m-padded-tb-massive{
+    padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+}
+.m-padded-tb-error{
+    padding-top: 12em !important;
+    padding-bottom: 12.5em !important;
+}
+/*---text---*/
+.m-text{
+    font-family: "微软雅黑"!important;
+    font-size: 1.2em!important;
+    color: black;!important;
+    letter-spacing: 1px!important;
+}
+.m-text-font{
+    font-family: "微软雅黑"!important;
+    font-size: 1em!important;
+    color: black;!important;
+    letter-spacing: 1px!important;
+    opacity: 0.8!important;
+}
+.m-text-font-header{
+    font-family: "微软雅黑"!important;
+    font-size: 16px!important;
+    color: black;!important;
+}
+.m-text-thin{
+    font-weight: 300 !important;
+}
+.m-text-spaced{
+    letter-spacing: 1px !important;
+}
+.m-text-lined{
+    line-height: 1.8 !important;
+}
+.m-opacity-mini{
+    opacity: 0.6 !important;
+}
+/*---display---*/
+.m-inline-block{
+    display: inline-block;!important;
+}

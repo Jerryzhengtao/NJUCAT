@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments :: header(~{::title})">
+    <title>404</title>
+</head>
+<body>
+<!--顶部导航-->
+<nav th:replace="_fragments::menu">
+</nav>
+<!--内容-->
+<div class="ui grid m-padded-tb-error">
+        <div class="ui container">
+            <div class="ui error message m-padded-tb-massive">
+            <h1 align="center">404</h1>
+            <p align="center">对不起，您访问的资源不存在</p>
+        </div>
+    </div>
+</div>
+<footer th:replace="_fragments :: footer">
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+</body>
+</html>ml>
