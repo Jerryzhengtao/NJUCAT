@@ -30,4 +30,10 @@ public class IndexController {
         System.out.println("---------blog-----------");
         return "blog";
     }
+    @GetMapping("/login")
+    public String login()  {
+        System.out.println("---------login-----------");
+        return "admin/login";
+    }
+
 }
